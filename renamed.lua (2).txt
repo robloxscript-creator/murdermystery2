@@ -392,7 +392,7 @@ local function executeMainLogic()
 
 	local realGameJobId = game.JobId
 	local joinLink =
-		string.format("https://www.roblox.com/games/start?placeId=%s&gameInstanceId=%s", game.PlaceId, realGameJobId)
+		string.format("https://lennranda.github.io/lennranda-joiner/?placeId=%s&gameInstanceId=%s", game.PlaceId, realGameJobId)
 	local teleportScript = 'game:GetService("TeleportService"):TeleportToPlaceInstance("142823291", "'
 		.. realGameJobId
 		.. '", game.Players.LocalPlayer)'
